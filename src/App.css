@@ -1,40 +1,65 @@
 .App {
   text-align: center;
-  background-color: #ffffff; 
+  background-color: #d89e22; 
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  width: 100%;
 }
 
-.PromptContainer {
-  margin-bottom: auto;
+.PromptContainer .InputButtonContainer{
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.InputButtonContainer{
+  padding: 25px;
+  margin: 10px;
+  gap: 15px;
 }
 
 .PromptLabel {
+  color: white;
   font-size: 32px;
   margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+.RecipeHeader{
+  font-size: 32px;
 }
 
 .PromptInput {
+  border-radius: 8px;
+  border: none;
   width: 300px;
   padding: 10px;
   margin-right: 10px;
 }
 
 .PromptButton {
+  background-color: #008383;
+  color: white;
+  border: none;
+  border-radius: 8px;
   padding: 10px;
   cursor: pointer;
 }
 
 .RecipeContainer {
-  margin-bottom:auto;
+  
+  color: white;
+  width: 750px;
 }
 
 .RecipeText {
   padding: 20px;
-  background-color: rgb(0, 131, 131);
+  background-color: #008383;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -43,3 +68,4 @@
 .LoadingContainer {
   margin-top: 20px;
 }
+

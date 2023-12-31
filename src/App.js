@@ -50,7 +50,7 @@ function App() {
       )}
       {response && (
         <div className="RecipeContainer">
-          <h2 className="RecipeHeader">Recipe:</h2>
+          <h2 className="RecipeHeader">Recipe</h2>
           <p className="RecipeText">{response}</p>
         </div>
       )}

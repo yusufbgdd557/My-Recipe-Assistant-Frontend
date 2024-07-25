@@ -1,7 +1,3 @@
-Sure, here's the revised README with a Project Screenshots section:
-
----
-
 # My Recipe Assistant Project
 
 My Recipe Assistant is a web application enhanced with ChatGPT, designed to help you find recipes based on the ingredients you have. By entering the ingredients you have available, ChatGPT will suggest a variety of dishes you can cook, making meal planning simple and convenient.
